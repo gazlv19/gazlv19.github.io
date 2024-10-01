@@ -36,7 +36,7 @@
   
   h1 {
     background: url(logo.png);
-    box-shadow: 3 3 10px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.5));
     position: absolute;
     top: 12mm;
     left: 20mm;
