@@ -1,0 +1,44 @@
+.background-img {
+    background-image: url(news.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.box1 {
+    position: relative;
+    height: 3em;
+    width: 80em;
+    background-color: blue;
+    border: 5px solid white;
+    top: 80%;
+    left: 5%;
+}
+
+.box1 p {
+    font-size: 2em;
+    font-weight: bold;
+    color: aliceblue;
+    position: relative;
+    top: -50%;
+    left: 62%;
+    
+}
+
+.box2 {
+    position: relative;
+    height: 7em;
+    width: 16em;
+    background-color: red;
+    border: 4px dashed black;
+    top:0%;
+    left: 4%;
+}
+
+.box2 p {
+    font-size: 2.5em;
+    position: relative;
+    top: -25%;
+    left: 10%;
+    font-weight: bold;
+}
