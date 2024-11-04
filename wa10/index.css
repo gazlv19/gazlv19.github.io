@@ -1,0 +1,28 @@
+
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  width: fit-content;
+}
+
+label {
+  font-weight: normal;
+  color: darkblue;
+}
+
+div {
+  padding: 15px;
+  background-color: #e8a9e8;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 150px;
+}
+
+p {
+  background: #c3dcf6;
+  color: #5e2612;
+  padding: 15px;
+  visibility: hidden;
+}
