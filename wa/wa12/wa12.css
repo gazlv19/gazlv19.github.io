@@ -1,0 +1,25 @@
+
+h1{
+    color: purple;
+}
+
+body{
+    display: block;
+    position: fixed;
+    left: 40%;
+    background-color: beige;
+}
+
+#button{
+    color: brown;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+#title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
