@@ -1,14 +1,16 @@
-body{
+body {
     font-family: "Noto Serif", serif;
     background-color: rgb(252, 235, 214);
     color: rgb(255, 51, 0);
 }
 
+/* navbar */
+
 .nav {
     padding: .5em;
     position: sticky;
     top: 0;
-  }
+}
 
 .nav ul {
     margin: 0;
@@ -16,45 +18,46 @@ body{
     list-style: none;
     display: flex;
     justify-content: right;
-  }
+}
 
-  .nav a {
+.nav a {
     color: rgb(255, 51, 0);
     text-decoration: none;
     padding: .5em 1em;
-  }
+}
 
-  .nav a:hover{
+.nav a:hover {
     color: brown;
-  }
+}
 
-#landing h2{
+/* landing page */
+#landing h2 {
     font-size: 175px;
     text-align: center;
 }
 
 #bottom-left {
-        position: absolute;
-        bottom: 40px;
-        left: 30px;
-        text-align: left;
-        width: 250px;
-        font-size: 23px;
-      }
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    text-align: left;
+    width: 250px;
+    font-size: 23px;
+}
 
-      #bottom-left button{
-        color: rgb(255, 51, 0);
-        background-color: rgb(252, 235, 214);
-        border-color: rgb(255, 51, 0);
-        border-radius: 30px;
-        padding: 12px;
-        border-style:dashed;
-      }
+#bottom-left button {
+    color: rgb(255, 51, 0);
+    background-color: rgb(252, 235, 214);
+    border-color: rgb(255, 51, 0);
+    border-radius: 30px;
+    padding: 12px;
+    border-style: dashed;
+}
 
-      #bottom-left button:hover{
-        color: brown;
-        border-color: brown;
-      }
+#bottom-left button:hover {
+    color: brown;
+    border-color: brown;
+}
 
 #bottom-right {
     position: absolute;
@@ -64,18 +67,20 @@ body{
     font-size: 23px;
 }
 
-#header{
+/* about */
+#header {
     font-size: 25px;
     margin-left: 10px;
     position: absolute;
     top: 10px;
 }
 
-#about h2{
+#about h2 {
     font-size: 90px;
     font-weight: lighter;
 }
-#about p{
+
+#about p {
     text-align: center;
     width: 600px;
     font-size: 18px;
@@ -96,7 +101,8 @@ body{
     padding: 2px;
 }
 
-#projects{
+/* projects */
+#projects {
     display: flex;
     flex-direction: column;
     width: 1100px;
@@ -105,12 +111,12 @@ body{
     margin: 10vh 20 vw;
 }
 
-#projects a{
+#projects a {
     text-decoration: none;
     color: orangered;
 }
 
-.project:hover{
+.project:hover {
     background-color: rgb(246, 242, 234);
 }
 
@@ -122,7 +128,7 @@ body{
     padding: 15px 20px;
 }
 
-.project img{
+.project img {
     width: 10vw;
 }
 
@@ -130,12 +136,12 @@ body{
     margin-right: 15px;
 }
 
-#project-head ul{
+#project-head ul {
     display: flex;
     justify-content: space-between;
 }
 
-#project-head h2{
+#project-head h2 {
     font-size: 60px;
     font-weight: lighter;
     margin-left: 10px;
@@ -145,18 +151,17 @@ body{
     left: 57px;
 }
 
- #buttons{
+#buttons {
     display: flex;
     justify-content: right;
     margin-top: 25px;
-} 
-
-#buttons p {
-    font-size: 18px ;
 }
 
+#buttons p {
+    font-size: 18px;
+}
 
-#buttons button{
+#buttons button {
     color: rgb(255, 51, 0);
     background-color: rgb(252, 235, 214);
     border: 2px solid rgb(255, 51, 0);
@@ -173,13 +178,14 @@ body{
     border-color: brown;
 }
 
-#name{
+#name {
     font-size: 35px;
     margin: 10px;
     margin-top: 40px;
 
 }
-#organisation{
+
+#organisation {
     font-size: 18px;
     margin-left: 20px;
 }
@@ -220,7 +226,7 @@ body{
     border-color: brown;
 }
 
-#description{
+#description {
     font-size: 17px;
     position: absolute;
     width: 500px;
