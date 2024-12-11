@@ -1,0 +1,34 @@
+{
+    "projects": [
+{
+        "name": "Virtual Reality",
+        "subdomain": "VR_app",
+        "category": ["Internship","Independant"],
+        "subtitle": "Housing tour application",
+        "organisation": "Exathought Technologies",
+        "abstract":"Collaborated, planned, and designed the UI/UX of an application to tour houses virtually.",
+        "description":"During my time as a UI/UX design intern at Exathought Technologies, I worked on designing a VR apartment tour app aimed at transforming virtual real estate experiences. Using Figma, I created intuitive wireframes and interactive prototypes that prioritized user engagement and a seamless interface. Collaboration played a key role in the project's success; I worked closely with team members and the design lead to refine designs through iterative feedback, ensuring continuous improvement. Additionally, I explored various VR/AR implementation methods, contributing innovative ideas to enhance the app's functionality. Regular participation in daily stand-up meetings allowed me to discuss progress, address challenges, and align with the project's goals, resulting in a user-focused and innovative product vision.",
+        "images": ["image1.png","image2.png","image3.png"]
+},
+{
+        "name": "Hexacopter",
+        "subdomain": "hexacopter",
+        "category": ["Internship","Independant"],
+        "subtitle": "Agricultural drone",
+        "organisation": "Aeronica Advanced Technologies",
+        "abstract":"Conducted research and applied it in building and programming an agricultural drone.",
+        "description": "During my internship at Aeronica Advanced Technologies in Pune, India, I contributed to an exciting project focused on designing and developing an agricultural hexacopter. This drone was engineered to aid precision farming by automating agricultural processes. I worked on both the hardware and software development of the hexacopter, integrating components like the Pixhawk flight controller and propulsion systems to ensure optimal performance. Additionally, I conducted a test flight to validate the design and functionality, gaining hands-on experience in UAV flight dynamics and controller systems.        My research on UAVs, aerodynamics, and propulsion systems provided the foundation for this project, enabling me to troubleshoot challenges and optimize the drone’s capabilities. I also shared my insights through a detailed presentation to a team of 17 members, highlighting the technical aspects and potential applications of UAVs in agriculture. This project was a perfect blend of innovation and engineering, and it reinforced my passion for developing impactful solutions in the field of aeronautics and technology.",
+        "images": ["image1.png","image2.png","image3.png"]
+},
+{
+        "name": "Liquid-solid hybrid rocket",
+        "subdomain": "rocket",
+        "category": ["Project","Collaborated"],
+        "subtitle": "Engineering projects",
+        "organisation": "University of Colorado Boulder",
+        "abstract":"Analysed statistics to design a liquid-solid hybrid rocket.",
+        "description": "As part of a collaborative project at the University of Colorado Boulder, I contributed to the design and testing of a liquid-solid hybrid rocket. Working with a team of seven, we analyzed key statistics and performance metrics to create a functional rocket that was tested in a controlled test fire cell. My role included developing a computational model to predict critical performance parameters, enabling us to optimize the rocket’s design and improve its efficiency. In addition to technical contributions, I prepared and delivered a presentation to an audience of over 75 individuals, sharing the logistics, methodology, and findings of our design process. This experience deepened my understanding of propulsion systems and computational analysis while enhancing my ability to convey complex engineering concepts to diverse audiences. The project exemplified teamwork, innovation, and problem-solving, and it further fueled my passion for combining analytical precision with creative engineering in aerospace applications.",
+        "images": ["image1.png","image2.png","image3.png"]
+}
+]
+}

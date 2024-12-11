@@ -1,0 +1,229 @@
+body{
+    font-family: "Noto Serif", serif;
+    background-color: rgb(252, 235, 214);
+    color: rgb(255, 51, 0);
+}
+
+.nav {
+    padding: .5em;
+    position: sticky;
+    top: 0;
+  }
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+  }
+
+  .nav a {
+    color: rgb(255, 51, 0);
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+
+  .nav a:hover{
+    color: brown;
+  }
+
+#landing h2{
+    font-size: 175px;
+    text-align: center;
+}
+
+#bottom-left {
+        position: absolute;
+        bottom: 40px;
+        left: 30px;
+        text-align: left;
+        width: 250px;
+        font-size: 23px;
+      }
+
+      #bottom-left button{
+        color: rgb(255, 51, 0);
+        background-color: rgb(252, 235, 214);
+        border-color: rgb(255, 51, 0);
+        border-radius: 30px;
+        padding: 12px;
+        border-style:dashed;
+      }
+
+      #bottom-left button:hover{
+        color: brown;
+        border-color: brown;
+      }
+
+#bottom-right {
+    position: absolute;
+    bottom: 35px;
+    right: 30px;
+    text-align: right;
+    font-size: 23px;
+}
+
+#header{
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+#about h2{
+    font-size: 90px;
+    font-weight: lighter;
+}
+#about p{
+    text-align: center;
+    width: 600px;
+    font-size: 18px;
+}
+
+#about {
+    position: absolute;
+    left: 400px;
+}
+
+#aboutmeimg {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    right: 165px;
+    top: 200px;
+    border: 2px dashed rgb(255, 51, 0);
+    padding: 2px;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    position: absolute;
+    left: 350px;
+    margin: 10vh 20 vw;
+}
+
+#projects a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.project:hover{
+    background-color: rgb(246, 242, 234);
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    border: 2px dashed rgb(255, 51, 0);
+    margin-top: 10px;
+    padding: 15px 20px;
+}
+
+.project img{
+    width: 10vw;
+}
+
+.projimg {
+    margin-right: 15px;
+}
+
+#project-head ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#project-head h2{
+    font-size: 60px;
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-top: -5px;
+    position: absolute;
+    top: 145px;
+    left: 57px;
+}
+
+ #buttons{
+    display: flex;
+    justify-content: right;
+    margin-top: 25px;
+} 
+
+#buttons p {
+    font-size: 18px ;
+}
+
+
+#buttons button{
+    color: rgb(255, 51, 0);
+    background-color: rgb(252, 235, 214);
+    border: 2px solid rgb(255, 51, 0);
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+#buttons button:hover {
+    color: brown;
+    border-color: brown;
+}
+
+#name{
+    font-size: 35px;
+    margin: 10px;
+    margin-top: 40px;
+
+}
+#organisation{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 10px;
+}
+
+.displayed-img-container {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.displayed-img {
+    width: 100%;
+    height: auto;
+    max-height: 550px;
+    border: 2px dashed rgb(255, 51, 0);
+}
+
+.thumb-bar {
+    display: flex;
+    margin-left: 250px;
+    gap: 5px;
+}
+
+.thumb-bar img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    border: 2px dotted rgb(255, 51, 0);
+}
+
+.thumb-bar img:hover {
+    border-color: brown;
+}
+
+#description{
+    font-size: 17px;
+    position: absolute;
+    width: 500px;
+    right: 25px;
+    top: 165px;
+}
