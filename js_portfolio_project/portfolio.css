@@ -45,7 +45,9 @@ body {
     font-size: 23px;
 }
 
-#bottom-left button {
+#bottom-left a {
+    font-size: 15px;
+    text-decoration: none;
     color: rgb(255, 51, 0);
     background-color: rgb(252, 235, 214);
     border-color: rgb(255, 51, 0);
@@ -54,7 +56,7 @@ body {
     border-style: dashed;
 }
 
-#bottom-left button:hover {
+#bottom-left a:hover {
     color: brown;
     border-color: brown;
 }
